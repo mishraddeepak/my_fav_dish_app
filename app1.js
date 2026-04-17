@@ -6,11 +6,11 @@ let myFavList = JSON.parse(localStorage.getItem("myFavourite")) || [];
 const input = document.getElementById('formGroupExampleInput');
 const searchButton = document.getElementById('style-button');
 const outPutBox = document.getElementById('box1');
-const listItems = document.getElementById('saved');
+const listItems = document.getElementById('saved')
 
 // Function to create a wishlist item
 function createWishlistItem(savedItem) {
-    const wishlistItem = document.createElement('div');
+    const wishlistItem = document.createElement('div')
     wishlistItem.innerHTML = savedItem.wishlistItem;
 
     // Add event listeners to buttons within the wishlist item if needed
