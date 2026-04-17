@@ -48,6 +48,7 @@ function removeItemFromLocalStorage(itemToRemove) {
 function fetchResult(query) {
     console.log("nsjndjnjdjn")
     console.log("Hiii.....rupali")
+    console.log("hii....amit")
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`)
         .then((response) => response.json())
         .then((data) => {
